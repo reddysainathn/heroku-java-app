@@ -2,6 +2,6 @@
 .settings
 bin/com/example
 build/classes/main/com/example
-gradle/wrapper
+
 .classpath
 .project
