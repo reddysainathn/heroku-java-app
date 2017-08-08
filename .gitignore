@@ -1,7 +1,7 @@
+.gradle
 .settings
-bin
-build
-gradle
+bin/com/example
+build/classes/main/com/example
+gradle/wrapper
 .classpath
 .project
-
