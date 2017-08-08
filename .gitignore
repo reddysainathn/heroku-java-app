@@ -5,3 +5,5 @@ build/classes/main/com/example
 
 .classpath
 .project
+.idea/
+build/
