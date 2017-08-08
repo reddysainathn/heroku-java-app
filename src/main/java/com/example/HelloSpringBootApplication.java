@@ -18,14 +18,14 @@ public class HelloSpringBootApplication {
     @RequestMapping("/")
     @ResponseBody
     String sayHello() {
-        return "Under Construction";
+        return "<h1>Under Construction</h1>";
     }
 
-    @RequestMapping(method = RequestMethod.POST, path = {"/no", "/noHello"})
-    @ResponseBody
-    ResponseEntity<String> sayNoHello(@RequestBody String name) {
-        return ResponseEntity.status(HttpStatus.ACCEPTED).body(name);
-    }
+    // @RequestMapping(method = RequestMethod.POST, path = {"/no", "/noHello"})
+    // @ResponseBody
+    // ResponseEntity<String> sayNoHello(@RequestBody String name) {
+    //     return ResponseEntity.status(HttpStatus.ACCEPTED).body(name);
+    // }
 
     public static void main(String[] args) {
         SpringApplication.run(HelloSpringBootApplication.class, args);
